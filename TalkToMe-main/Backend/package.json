@@ -1,0 +1,41 @@
+{
+  "name": "talktome",
+  "version": "1.0.0",
+  "description": "A dedicated platform to help students to maintail their health and tips for reduce stress and enxity",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config index.js",
+    "start": "node index.js",
+    "build": "echo 'No build necessary'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itz-mohit-014/TalkToMe.git"
+  },
+  "keywords": [
+    "Health"
+  ],
+  "author": "Mohit Jangid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itz-mohit-014/TalkToMe/issues"
+  },
+  "homepage": "https://github.com/itz-mohit-014/TalkToMe#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^6.7.0",
+    "@google-cloud/text-to-speech": "^5.5.0",
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.7.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
